@@ -1,0 +1,39 @@
+{
+ "version":"1.1",
+ "manifest_version":2,
+ "name":"Jens",
+ "short_name":"J",
+ "description":"Jens' private tema til Chromne",
+ "homepage_url": "http://jensz12.com",
+ "author": "Jens",
+ "minimum_chrome_version": "18",
+ "icons": {"16": "images/icon16.png",
+ 	   "32": "images/icon32.png",
+           "48": "images/icon48.png",
+           "128": "images/icon128.png"},
+ "theme":{
+ "images":{
+	"theme_ntp_background":"images/theme_ntp_background.jpeg",
+	"theme_frame":"images/theme_frame.jpg",
+	"theme_toolbar":"images/theme_toolbar.jpg",
+	"theme_tab_background":"images/theme_tab_background.jpg",
+	"theme_ntp_attribution":"images/theme_ntp_attribution.png"
+	},
+ "colors":{
+	"tab_text":[0,0,0],
+	"tab_background_text":[0,0,0],
+	"bookmark_text":[0,0,0],
+	"frame":[60,105,120],
+	"ntp_text":[0,0,0],
+	"ntp_link":[0,0,0],
+	"ntp_link_underline":[0,0,0],
+	"toolbar":[114,167,185,0.6],
+	"ntp_background":[255,255,255]
+	},
+ "properties":{
+	"ntp_background_repeat":"no-repeat",
+	"ntp_background_alignment":"center center",
+	"ntp_logo_alternate" : 0
+	}
+   }
+  }
