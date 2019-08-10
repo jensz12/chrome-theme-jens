@@ -1,35 +1,36 @@
 {
- "version":"1.2.7",
- "manifest_version":2,
- "name":"Signes måne",
- "short_name":"Måne",
- "description":"En måne",
+ "version":"1.4.0",
+ "manifest_version":3,
+ "name":"Jens' Tema",
+ "short_name":"<3",
+ "description":"Krælighed",
  "homepage_url": "http://jensz12.com",
  "author": "Jens",
  "minimum_chrome_version": "18",
  "icons":
  {
-  "16": "images/icon16.png",
- 	"32": "images/icon32.png",
-  "48": "images/icon48.png",
-  "128": "images/icon128.png"
+	"16": "images/icon16.png",
+	"32": "images/icon32.png",
+	"48": "images/icon48.png",
+	"128": "images/icon128.png"
 },
  "theme":
  {
  "images":
  {
-	"theme_ntp_background":"images/theme_ntp_background.jpeg",
-	"theme_frame":"images/theme_frame.jpg",
-	"theme_toolbar":"images/theme_toolbar.jpg",
-	"theme_tab_background":"images/theme_tab_background.jpg",
+	"theme_ntp_background":"images/theme_ntp_background.png",
+    "theme_frame" : "images/theme_frame.png",
+    "theme_frame_overlay" : "images/theme_frame.png",
+	"theme_toolbar":"images/theme_toolbar.png",
+	"theme_tab_background":"images/theme_tab_background.png",
 	"theme_ntp_attribution":"images/theme_ntp_attribution.png"
 	},
  "colors":
  {
-	"tab_text":[255,255,255],
+	"tab_text":[0,0,0],
 	"tab_background_text":[255,255,255],
 	"bookmark_text":[255,255,255],
-	"frame":[255,255,255],
+	"frame":[0,0,0],
 	"ntp_text":[0,0,0],
 	"ntp_link":[0,0,0],
 	"ntp_link_underline":[255,255,255],
